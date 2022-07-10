@@ -1,0 +1,28 @@
+<h1 mat-dialog-title>Add User</h1>
+<div mat-dialog-content>
+  <!-- First Name -->
+  <mat-form-field appearance="outline">
+    <mat-label>First Name</mat-label>
+    <input matInput placeholder="Please enter your first name" />
+    <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+    <mat-hint>Hint: Enter min 3 characters</mat-hint>
+  </mat-form-field>
+  <!-- Last Name -->
+  <mat-form-field appearance="outline">
+    <mat-label>Last Name</mat-label>
+    <input matInput placeholder="Please enter your last name" />
+    <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+    <mat-hint>Hint: Enter min 3 characters</mat-hint>
+  </mat-form-field>
+  <!-- Email -->
+  <!-- <mat-form-field appearance="outline">
+    <mat-label>Enter your email</mat-label>
+    <input
+      matInput
+      placeholder="pat@example.com"
+      [formControl]="email"
+      required
+    />
+    <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
+  </mat-form-field> -->
+</div>
